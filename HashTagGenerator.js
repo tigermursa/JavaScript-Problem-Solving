@@ -1,12 +1,12 @@
 //=======================================================
 //     Problem : Hash Tag Generator
 //=======================================================
-console.log("Problem - 2 : Hash Tag Generator");
+console.log("5");
 //? Note:
 // If input string is more then 24 char & empty return invalid input
 // word's first latter will be Capital
 
-// Solve-1:
+// Solve-1: hot
 
 const hashTagGenerator = (text) => {
   if (text.length > 24 || text.trim().length === 0) {
