@@ -40,3 +40,11 @@ const longestString2 = (string) => {
 const result2 = longestString2(text);
 
 console.log("using reduce :", result2);
+
+
+/*
+1) React 
+2(
+  
+)
+*/
