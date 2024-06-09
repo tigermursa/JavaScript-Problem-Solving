@@ -2,10 +2,10 @@
 //!     Problem : Find the Longest word in a String
 //!=======================================================
 
+console.log("Problem - 1 : Find the Longest word in a String");
 
-console.log("Problem - 3 : Find the Longest word in a String");
 //? Note:
-// If input string empty or only space then return invalid input
+// 1) If input string empty or only space then return invalid input
 
 // Solve-1: solving without using reduce
 const text = "feel the  code from your  heart of javaScript";
@@ -42,11 +42,3 @@ const longestString2 = (string) => {
 const result2 = longestString2(text);
 
 console.log("using reduce :", result2);
-
-
-/*
-1) React 
-2(
-  
-)
-*/
