@@ -14,7 +14,7 @@
 //? If the input string is empty or contains only whitespace, the function should return an false.
 //? The function should ignore leading and trailing whitespace when determining the longest word.
 
-//Solve:
+// Solve-1:
 
 const findLongestWord = (str) => {
   //If the input string is empty or contains only whitespace, the function should return an false
@@ -30,3 +30,20 @@ const findLongestWord = (str) => {
 
 // const myArr = ['a', 'b', 'c', 'd'];
 // console.log(myArr.at(-1));
+
+// Solve-2: using reducer (recommended)
+
+const longestWord = (str) => {
+  if (str.trim().length === 0) {
+    return false;
+  }
+
+  const strArr = str.split(" ");
+  const result = strArr.reduce(
+    (acc, crt) => (crt.length > acc.length ? crt : acc),
+    ""
+  );
+  return result;
+};
+
+console.log(longestWord("University HELLO Bangladesh "));
