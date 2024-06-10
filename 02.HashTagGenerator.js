@@ -25,6 +25,7 @@ const hashTag = (str) => {
 };
 
 console.log(hashTag("i love coding this my life"));
+
 //solve-2:
 const hashTag2 = (str) => {
   //if the string is more than 200 char and empty return false
