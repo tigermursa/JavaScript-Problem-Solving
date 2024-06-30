@@ -16,6 +16,8 @@
 
 // Solve-1:
 
+// The one Halal taka is greater then the one  Billon invalid Taka
+// Solve-1:
 const findLongestWord = (str) => {
   //If the input string is empty or contains only whitespace, the function should return an false
   if (str.trim().length === 0) {
@@ -47,3 +49,4 @@ const longestWord = (str) => {
 };
 
 console.log(longestWord("University HELLO Bangladesh "));
+
