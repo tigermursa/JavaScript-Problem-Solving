@@ -50,3 +50,16 @@ const longestWord = (str) => {
 
 console.log(longestWord("University HELLO Bangladesh "));
 
+//! Learned from here
+
+/*
+Method 1: For Loop
+
+Key Topic: Looping and Conditional Statements
+Method 2: Sort
+
+Key Topic: Array Sorting
+Method 3: Reduce
+
+Key Topic: Array Reduction
+*/
