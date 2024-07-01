@@ -8,7 +8,7 @@
 //solve-1:
 
 const hashTag = (str) => {
-  //if the string is more than 200 char and empty return false
+  //if the string is more than 50 char and empty return false
   if (str.length > 50 || str.trim().length === 0) {
     return false;
   }
