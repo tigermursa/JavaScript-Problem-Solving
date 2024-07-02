@@ -18,4 +18,4 @@ const countChar = (word, char) => {
   return totalCount;
 };
 
-console.log(countChar("Bangladesh", "a"));
+console.log(countChar("Chocococal", "c"));
