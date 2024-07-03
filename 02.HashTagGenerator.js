@@ -46,3 +46,16 @@ const hashTag2 = (str) => {
 };
 
 console.log(hashTag2("i love coding this my life2"));
+
+
+/*
+Method 1: split
+
+Key Topic: Looping and Conditional Statements
+Method 2: map
+
+Key Topic: Array Sorting
+Method 3: replace
+
+Key Topic: Array Reduction
+*/
